@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+    font-family: fac;
+    src: url(Fontes/symtext/Symtext.ttf);
+}
+:root{
+    --cor0: #050000;
+    --cor1: #560000;
+    --cor2: #D60000;
+    --cor3: #562525;
+    --cor4: #A30000;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor3);
+}
+header{
+    background-image: linear-gradient(to bottom,var(--cor2), var(--cor1) );
+    color: white;
+    height: 120px;
+    text-align: center;
+    padding-top: 40px;
+}
+nav{
+    background-color: var(--cor1);
+    height: 20px;
+    padding: 10px;
+
+    text-align: center;
+    margin-left: 0px;
+}
+nav > a{
+    color:white;
+    padding: 15px;
+    margin-right: 0px;
+    transition-duration: 2s;
+}
+nav > a:hover{
+    background-color: var(--cor2);
+
+}
+a{
+    text-decoration: none;
+}
+div.bloco {
+    display: inline-table;
+    
+    border: 1px solid black;
+    
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+
+    text-align: center;
+    box-shadow: 5px 5px 13px #e30909;
+
+}
+#b1{
+    background-color: white;
+    margin-left: 15px;
+}
+#b2{
+    background-color: white;
+    margin-left: 15px;
+}
+#b3{
+    background-color: white;
+    margin-left: 15px;
+}
+#b4{
+    background-color: white;
+    margin-left: 15px;
+}
+audio{
+    width: 250px;
+}
+.em-Desenvolvimento{
+    color: var(--cor1);
+}
+li > a{
+    color: var(--cor2);
+}
+ul{
+    list-style: inside;
+    list-style-type: square;
+}
+article{
+    margin: 35px;
+    padding: 0px;
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(to top, Red, Darkred);
+    height: 59px;
+    font-size: x-large;
+    padding-top: 30px;
+}
